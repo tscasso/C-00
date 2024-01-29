@@ -6,12 +6,12 @@
 /*   By: tscasso <tscasso@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/01/13 15:48:55 by tscasso           #+#    #+#             */
-/*   Updated: 2024/01/22 14:43:00 by tscasso          ###   ########.fr       */
+/*   Updated: 2024/01/26 18:06:47 by tscasso          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "phonebook.class.hpp"
-#include "contacts.class.hpp"
+#include "PhoneBook.hpp"
+#include "Contacts.hpp"
 
 int	main()
 {

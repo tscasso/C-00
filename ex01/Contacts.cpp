@@ -1,17 +1,17 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   contacts.class.cpp                                 :+:      :+:    :+:   */
+/*   Contacts.cpp                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: tscasso <tscasso@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/01/13 18:41:07 by tscasso           #+#    #+#             */
-/*   Updated: 2024/01/26 16:59:57 by tscasso          ###   ########.fr       */
+/*   Updated: 2024/01/26 18:05:17 by tscasso          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "contacts.class.hpp"
-#include "phonebook.class.hpp"
+#include "Contacts.hpp"
+#include "PhoneBook.hpp"
 
 Contacts::Contacts(void)
 {

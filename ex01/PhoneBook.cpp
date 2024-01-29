@@ -1,12 +1,12 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   phonebook.class.cpp                                :+:      :+:    :+:   */
+/*   PhoneBook.cpp                                      :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: tscasso <tscasso@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/01/13 15:34:05 by tscasso           #+#    #+#             */
-/*   Updated: 2024/01/26 16:55:18 by tscasso          ###   ########.fr       */
+/*   Updated: 2024/01/26 18:07:43 by tscasso          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,8 +14,8 @@
 #include <iomanip>
 #include <string>
 #include <sstream>
-#include "phonebook.class.hpp"
-#include "contacts.class.hpp"
+#include "PhoneBook.hpp"
+#include "Contacts.hpp"
 
 PhoneBook::PhoneBook(void)
 {
@@ -73,6 +73,7 @@ void	PhoneBook::search_contact(void)
 	std::string	in;
 	int			idx;
 
+	idx = 0;
 	printTable();
 	std::cout << "Select contact to show: ";
 	std::getline(std::cin, in);
